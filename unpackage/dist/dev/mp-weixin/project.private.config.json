@@ -3,5 +3,32 @@
    "projectname": "uniapp-Vue3",
    "setting": {
       "compileHotReLoad": true
+   },
+   "condition": {
+      "miniprogram": {
+         "list": [
+            {
+               "name": "pages/index/index",
+               "pathName": "pages/index/index",
+               "query": "",
+               "launchMode": "default",
+               "scene": null
+            },
+            {
+               "name": "pages/demo4/demo4",
+               "pathName": "pages/demo4/demo4",
+               "query": "",
+               "launchMode": "default",
+               "scene": null
+            },
+            {
+               "name": "pages/demo5/demo5",
+               "pathName": "pages/demo5/demo5",
+               "query": "",
+               "launchMode": "default",
+               "scene": null
+            }
+         ]
+      }
    }
 }

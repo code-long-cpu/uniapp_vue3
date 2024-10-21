@@ -23,50 +23,9 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.content .logo {
-  height: 200rpx;
-  width: 200rpx;
-  margin-top: 200rpx;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50rpx;
-}
-.content .text-area {
-  display: flex;
-  justify-content: center;
-}
-.content .text-area .title {
-  font-size: 36rpx;
-  color: #8f8f94;
-}
 .box {
-  border: solid 1px black;
-  white-space: nowrap;
-  width: 80%;
-  margin: auto;
-}
-.box .box_1 {
-  width: 100rpx;
-  height: 100rpx;
-  border: solid 1rpx black;
-  display: inline-block;
-  margin: 10rpx;
-  background-color: pink;
-}
-.box .boxColor {
-  background-color: yellow;
-}
-image {
-  border: solid 1rpx black;
-}
-input {
-  border: solid 1rpx black;
-  padding: 20px;
-  margin: 20px;
+  width: 200px;
+  height: 200px;
+  background: orange;
+  font-size: 50px;
 }

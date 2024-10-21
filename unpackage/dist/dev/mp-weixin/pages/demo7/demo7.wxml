@@ -1,0 +1,1 @@
+<view class=""> 什么玩意儿 <check-group u-s="{{['d']}}" u-i="6aea9c36-0" bind:__l="__l"><checkbox></checkbox>衣服 <checkbox></checkbox>狗子 <checkbox></checkbox>人类 </check-group></view>

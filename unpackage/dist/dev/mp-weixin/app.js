@@ -3,6 +3,10 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const common_vendor = require("./common/vendor.js");
 if (!Math) {
   "./pages/index/index.js";
+  "./pages/demo4/demo4.js";
+  "./pages/vue3_template/vue3_template.js";
+  "./pages/demo5/demo5.js";
+  "./pages/demo7/demo7.js";
 }
 const _sfc_main = {
   onLaunch: function() {

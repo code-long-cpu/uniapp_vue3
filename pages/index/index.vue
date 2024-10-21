@@ -7,16 +7,8 @@
 	</view>
 	<br>
 	<scroll-view class="box" scroll-x hover-stay-time='0'>
-		<view class="box_1" hover-class="boxColor">box_1</view>
-		<view class="box_1">box_1</view>
-		<view class="box_1">box_2</view>
-		<view class="box_1">box_3</view>
-		<view class="box_1">box_4</view>
-		<view class="box_1">box_5</view>
-		<view class="box_1">box_6</view>
-		<view class="box_1">box_7</view>
-		<view class="box_1">box_8</view>
-		<view class="box_1">box_9</view>
+		<view class="box_1" hover-class="boxColor" v-for="(item,index) in a" :key="index">{{index+1}}</view>
+		
 	</scroll-view>
 
 	<text selectable>谢龙小程序</text> 
@@ -24,14 +16,16 @@
 	<view>{{a}}</view>
 	<hr>
 	<view>{{b}}</view>
-	<view>
+	<!-- <view>
 		<image src=""></image>
-	</view>
-	
+	</view> -->
+	<hr>
+	<input type="text">
 	<view>
 		<button type="primary" :loading="false">按钮</button>
 		<button type="primary" loading="true">按钮</button>
-		</view>
+	</view>
+	
 </template>
 
 <script setup>
@@ -85,5 +79,12 @@
 			background-color:yellow;
 		}
 	}
-	
+	image{
+		border:solid 1rpx black;
+	}
+	input{
+		border:solid 1rpx black;
+		padding:20px;
+		margin:20px;
+	}
 </style>

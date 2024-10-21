@@ -1,6 +1,10 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/demo4/demo4",
+    "pages/vue3_template/vue3_template",
+    "pages/demo5/demo5",
+    "pages/demo7/demo7"
   ],
   "window": {
     "navigationBarTextStyle": "black",

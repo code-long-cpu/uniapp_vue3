@@ -9,8 +9,14 @@ const _sfc_main = {
     return (_ctx, _cache) => {
       return {
         a: common_assets._imports_0,
-        b: common_vendor.t(a),
-        c: common_vendor.t(common_vendor.unref(b))
+        b: common_vendor.f(a, (item, index, i0) => {
+          return {
+            a: common_vendor.t(index + 1),
+            b: index
+          };
+        }),
+        c: common_vendor.t(a),
+        d: common_vendor.t(common_vendor.unref(b))
       };
     };
   }

@@ -3,8 +3,36 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "demo3页面"
+				"navigationBarTitleText": "index页面"
 				
+			}
+		},
+		{
+			"path" : "pages/demo4/demo4",
+			"style" : 
+			{
+				"navigationBarTitleText" : "demo4"
+			}
+		},
+		{
+			"path" : "pages/vue3_template/vue3_template",
+			"style" : 
+			{
+				"navigationBarTitleText" : "vue3_template"
+			}
+		},
+		{
+			"path" : "pages/demo5/demo5",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/demo7/demo7",
+			"style" : 
+			{
+				"navigationBarTitleText" : "demo7-computed"
 			}
 		}
 	],
