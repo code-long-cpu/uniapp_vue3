@@ -25,15 +25,23 @@
 		<br>
 		☑️用reduce勾选项进行价格累加：{{sum}}元
 	</view>
+	<text>\n</text>
+	<view>
+		<navigator url="../index/index">跳转回主页</navigator>
+	</view>
 </template>
 
 <script setup>
+	uni.showToast({
+		title:"操作成功"
+	})
 	import {computed, ref} from 'vue'
 	// 字符串都是真值，‘false’是true，false才是false
 	const list = ref([
-		{id:'1',name:'👕上衣',price:1000,checked:true},
-		{id:'2',name:'👖裤子',price:2000,checked:false},
-		{id:'3',name:'👞鞋子',price:3000,checked:false}
+		{id:'1',name:'🎩帽子',price:1500,checked:false},
+		{id:'2',name:'👕上衣',price:1000,checked:true},
+		{id:'3',name:'👖裤子',price:2000,checked:false},
+		{id:'4',name:'👞鞋子',price:3000,checked:false}
 	])
 	const test = ref([])
 	const checkedlist= ref([])
@@ -68,7 +76,7 @@
 		border-radius: 10px;
 		width:280px;
 		padding: 5px;
-		margin:10px;
+		margin:10px auto;
 		h4{
 			color:$borderColor;
 			text-align: center;
@@ -84,6 +92,7 @@
 			border-top:solid 1px $borderColor;
 			margin-top:10px;
 		}
+		
 		.price{
 			border:0
 		}

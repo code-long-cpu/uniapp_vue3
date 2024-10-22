@@ -8,6 +8,13 @@
       "miniprogram": {
          "list": [
             {
+               "name": "pages/demo7/demo7",
+               "pathName": "pages/demo7/demo7",
+               "query": "",
+               "launchMode": "default",
+               "scene": null
+            },
+            {
                "name": "pages/index/index",
                "pathName": "pages/index/index",
                "query": "",

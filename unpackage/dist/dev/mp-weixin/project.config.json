@@ -8,9 +8,10 @@
       "urlCheck": false,
       "es6": true,
       "postcss": false,
-      "minified": false,
+      "minified": true,
       "newFeature": true,
       "bigPackageSizeSupport": true,
+      "ignoreUploadUnusedFiles": true,
       "babelSetting": {
          "ignore": [],
          "disablePlugins": [],
@@ -18,10 +19,27 @@
       }
    },
    "compileType": "miniprogram",
-   "libVersion": "3.6.2",
-   "appid": "touristappid",
+   "libVersion": "3.6.1",
+   "appid": "wx9b40414e8139dead",
    "projectname": "uniapp-Vue3",
-   "condition": {},
+   "condition": {
+      "search": {
+         "current": -1,
+         "list": []
+      },
+      "conversation": {
+         "current": -1,
+         "list": []
+      },
+      "game": {
+         "current": -1,
+         "list": []
+      },
+      "miniprogram": {
+         "current": -1,
+         "list": []
+      }
+   },
    "editorSetting": {
       "tabIndent": "insertSpaces",
       "tabSize": 3

@@ -8,7 +8,6 @@
 	<br>
 	<scroll-view class="box" scroll-x hover-stay-time='0'>
 		<view class="box_1" hover-class="boxColor" v-for="(item,index) in a" :key="index">{{index+1}}</view>
-		
 	</scroll-view>
 
 	<text selectable>谢龙小程序</text> 
@@ -24,6 +23,9 @@
 	<view>
 		<button type="primary" :loading="false">按钮</button>
 		<button type="primary" loading="true">按钮</button>
+	</view>
+	<view>
+		<navigator url="../demo7/demo7">跳转到demo7</navigator>
 	</view>
 	
 </template>

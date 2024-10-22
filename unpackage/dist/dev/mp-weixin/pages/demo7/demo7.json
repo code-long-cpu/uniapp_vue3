@@ -1,4 +1,5 @@
 {
-  "navigationBarTitleText": "demo7",
+  "navigationBarTitleText": "demo7-computed",
+  "backgroundColor": "#ff9ca2",
   "usingComponents": {}
 }
