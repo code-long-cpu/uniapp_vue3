@@ -23,9 +23,29 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-view{
-		padding:0;
-		margin:0;
-		box-sizing: border-box;
-		/* background-color: rgb(233, 234, 235); */
-}page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}
+.container .layout.data-v-e25b1ed9 {
+  padding: 50rpx;
+}
+.container .layout .box.data-v-e25b1ed9 {
+  margin-bottom: 60rpx;
+  box-shadow: 0 10rpx 30rpx rgba(0, 0, 0, 0.08);
+  border-radius: 15rpx;
+  overflow: hidden;
+}
+.container .layout .box .pic.data-v-e25b1ed9 {
+  overflow: hidden;
+}
+.container .layout .box .pic image.data-v-e25b1ed9 {
+  width: 100%;
+}
+.container .layout .box .text.data-v-e25b1ed9 {
+  padding: 20rpx;
+  color: #333;
+  font-size: 36rpx;
+}
+.container .layout .box .author.data-v-e25b1ed9 {
+  padding: 0 20rpx 20rpx;
+  font-size: 30rpx;
+  text-align: right;
+  color: #888;
+}

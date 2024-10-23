@@ -7,6 +7,8 @@ if (!Math) {
   "./pages/vue3_template/vue3_template.js";
   "./pages/demo5/demo5.js";
   "./pages/demo7/demo7.js";
+  "./pages/requestDemo/requestDemo.js";
+  "./pages/image_mode/image_mode.js";
 }
 const _sfc_main = {
   onLaunch: function() {

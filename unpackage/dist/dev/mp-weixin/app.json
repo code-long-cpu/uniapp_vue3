@@ -4,18 +4,20 @@
     "pages/demo4/demo4",
     "pages/vue3_template/vue3_template",
     "pages/demo5/demo5",
-    "pages/demo7/demo7"
+    "pages/demo7/demo7",
+    "pages/requestDemo/requestDemo",
+    "pages/image_mode/image_mode"
   ],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#268b2b",
-    "backgroundColor": "#d5ff00",
+    "navigationBarBackgroundColor": "#1ce5e0",
+    "backgroundColor": "#d6d6d6",
     "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#999",
-    "selectedColor": "#FE1C32",
+    "selectedColor": "#000000",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -26,8 +28,12 @@
         "text": "价格表"
       },
       {
-        "pagePath": "pages/demo4/demo4",
-        "text": "demo4"
+        "pagePath": "pages/image_mode/image_mode",
+        "text": "image_mode"
+      },
+      {
+        "pagePath": "pages/requestDemo/requestDemo",
+        "text": "讨厌猫咪"
       }
     ]
   },
