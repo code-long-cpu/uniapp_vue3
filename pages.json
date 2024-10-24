@@ -3,7 +3,7 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "index页面"
+				"navigationBarTitleText": "主页"
 			}
 		},
 		{
@@ -31,7 +31,7 @@
 			"path" : "pages/demo7/demo7",
 			"style" : 
 			{
-				"navigationBarTitleText" : "demo7-computed",
+				"navigationBarTitleText" : "demo7计算属性",
 				"backgroundColor": "#ff9ca2"
 			}
 		},
@@ -47,7 +47,7 @@
 			"path" : "pages/image_mode/image_mode",
 			"style" : 
 			{
-				"navigationBarTitleText" : "image_mode"
+				"navigationBarTitleText" : "图片模式mode"
 			}
 		}
 	],
@@ -61,24 +61,32 @@
 	},
 	"tabBar": {
 		"color":"#999",
-		"selectedColor": "#000000",
+		"selectedColor": "#1ce5e0",
 		"fontSize":"10px",
 		"list":[
 			{
 				"pagePath": "pages/index/index",
-				"text": "首页"
+				"text": "首页",
+				"iconPath":"static/首页 (4).png",
+				"selectedIconPath":"static/首页 (2).png"
 			},
 			{ 
 				"pagePath": "pages/demo7/demo7",
-				"text": "价格表"
+				"text": "购物",
+				"iconPath":"static/门店 (1).png",
+				"selectedIconPath":"static/门店.png"
 			},
 			{
 				"pagePath": "pages/image_mode/image_mode",
-				"text": "image_mode"
+				"text": "图片",
+				"iconPath":"static/img (1).png",
+				"selectedIconPath":"static/img.png"
 			},
 			{
 				"pagePath": "pages/requestDemo/requestDemo",
-				"text": "讨厌猫咪"
+				"text": "萌宠",
+				"iconPath":"static/Dog (1).png",
+				"selectedIconPath":"static/Dog.png"
 			}
 			
 		]

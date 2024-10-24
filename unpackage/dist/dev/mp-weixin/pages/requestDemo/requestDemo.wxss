@@ -23,20 +23,42 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.container .layout.data-v-e25b1ed9 {
+.container .menu.data-v-e25b1ed9 {
   padding: 50rpx;
+}
+.container .layout.data-v-e25b1ed9 {
+  padding: 0 50rpx;
 }
 .container .layout .box.data-v-e25b1ed9 {
   margin-bottom: 60rpx;
-  box-shadow: 0 10rpx 30rpx rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10rpx 30rpx rgba(0, 0, 0, 0.3);
   border-radius: 15rpx;
   overflow: hidden;
 }
 .container .layout .box .pic.data-v-e25b1ed9 {
-  overflow: hidden;
+  position: relative;
 }
 .container .layout .box .pic image.data-v-e25b1ed9 {
   width: 100%;
+}
+.container .layout .box .pic .message.data-v-e25b1ed9 {
+  padding: 40rpx;
+  font-size: 40rpx;
+  color: white;
+  position: absolute;
+  top: 0rpx;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .layout .box .pic .message .up.data-v-e25b1ed9, .container .layout .box .pic .message .bellow.data-v-e25b1ed9 {
+  display: flex;
+  justify-content: space-between;
+}
+.container .layout .box .pic .message .up text.data-v-e25b1ed9, .container .layout .box .pic .message .bellow text.data-v-e25b1ed9 {
+  text-shadow: 0.1em 0.1em #333;
 }
 .container .layout .box .text.data-v-e25b1ed9 {
   padding: 20rpx;
@@ -48,4 +70,23 @@
   font-size: 30rpx;
   text-align: right;
   color: #888;
+}
+.container .float.data-v-e25b1ed9 {
+  position: fixed;
+  right: 50rpx;
+  bottom: 10rpx;
+  padding-bottom: calc(env(safe-area-inset-bottom) + 30rpx);
+}
+.container .float .item.data-v-e25b1ed9 {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.container .loadMore.data-v-e25b1ed9 {
+  padding-bottom: calc(env(safe-area-inset-bottom) + 30rpx);
 }
